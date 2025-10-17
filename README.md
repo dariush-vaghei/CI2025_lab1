@@ -1,6 +1,7 @@
 # CI2025_lab1
 Solution of the three instances of the multiple 1-0 knapasack problem.
 
+
 # Simulated Annealing (SA)
 The algorithm uses Simulated Annealing to explore the solution space of a multi-dimensional knapsack problem by probabilistically accepting worse solutions early on to escape local optima. It gradually cools the temperature to converge toward high-value feasible solutions.
 
@@ -15,6 +16,7 @@ The algorithm uses Simulated Annealing to explore the solution space of a multi-
 - Gradually decrease the temperature according to the cooling rate.
 - Return the best feasible solution and best overall solution found.
 
+
 # Tabu Search
 The algorithm uses Tabu Search to iteratively explore the solution space of a multi-dimensional knapsack problem, avoiding cycles by keeping a memory of recent moves (tabu list). It balances exploration and exploitation, accepting the best non-tabu neighbor or aspirational moves to improve solution quality.
 
@@ -28,6 +30,7 @@ The algorithm uses Tabu Search to iteratively explore the solution space of a mu
   - Select and apply the best allowed move, update current solution and tabu list.
   - Update best feasible and best overall solutions if the move improves them.
 - Return the best feasible solution found and the best overall solution.
+
 
 # Iterated Local Search (ILS)
 The algorithm uses Iterated Local Search (ILS) to solve the multi-dimensional knapsack problem by repeatedly improving a candidate solution through local search and occasional perturbations. It balances exploration and exploitation to find high-value feasible solutions efficiently.
